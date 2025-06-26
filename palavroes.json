@@ -1,0 +1,8 @@
+{
+  "palavroes": [],
+  "configuracoes": {
+    "ativo": true,
+    "deletar_mensagem": true,
+    "avisar_usuario": true
+  }
+}
