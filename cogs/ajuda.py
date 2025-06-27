@@ -269,6 +269,21 @@ class Ajuda(commands.Cog):
                         "`!embed <mensagem>` - Cria embed personalizada"
                     ]
                 }
+            },
+            "mensagensautomaticas": {
+                "emoji": "🔄",
+                "nome": "Mensagens Automáticas",
+                "comandos": {
+                    "⚙️ **Configuração:**": [
+                        "`!adicionarmensagem <horas> <mensagem>`, `!addmsg <horas> <mensagem>` - Adiciona mensagem automática",
+                        "`!removermensagem <parte da mensagem>`, `!rmmsg <parte da mensagem>` - Remove mensagem automática",
+                        "`!testmensagem <parte da mensagem>`, `!testmsg <parte da mensagem>` - Testa mensagem automática"
+                    ],
+                    "📋 **Gerenciamento:**": [
+                        "`!mensagens`, `!listmsg` - Lista todas as mensagens automáticas",
+                        "`!statusmsg` - Verifica status da conexão com banco de dados"
+                    ]
+                }
             }
         }
         
