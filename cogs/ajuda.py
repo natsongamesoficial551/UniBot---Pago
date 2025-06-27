@@ -150,19 +150,25 @@ class Ajuda(commands.Cog):
                 "emoji": "🎮",
                 "nome": "Diversão",
                 "comandos": {
-                    "🎲 **Jogos:**": [
-                        "`!dado [lados]` - Rolar dado",
-                        "`!moeda` - Cara ou coroa",
-                        "`!rps <pedra/papel/tesoura>` - Pedra, papel, tesoura",
-                        "`!8ball <pergunta>` - Bola 8 mágica"
+                    "⚙️ **Configuração:**": [
+                        "`!setlang en/pt` - Define idioma | Set language"
                     ],
-                    "😄 **Entretenimento:**": [
-                        "`!piada` - Piada aleatória",
-                        "`!curiosidade` - Curiosidade",
-                        "`!pergunta` - Pergunta aleatória",
-                        "`!escolher <opções>` - Escolher opção",
-                        "`!love @user1 @user2` - Compatibilidade",
-                        "`!motivar [@usuário]` - Frase motivacional"
+                    "🎲 **Jogos | Games:**": [
+                        "`!dado [lados]`, `!dice [sides]` - Rolar dado | Roll dice",
+                        "`!moeda`, `!coin` - Cara ou coroa | Flip coin",
+                        "`!rps <opção>`, `!rps <option>` - Pedra, papel, tesoura | Rock, paper, scissors",
+                        "`!8ball <pergunta>`, `!8ball <question>` - Bola 8 mágica | Magic 8-ball",
+                        "`!aleatorio [min] [max]`, `!random [min] [max]` - Número aleatório | Random number"
+                    ],
+                    "😄 **Entretenimento | Entertainment:**": [
+                        "`!piada`, `!joke` - Piada aleatória | Tell a joke",
+                        "`!curiosidade`, `!fact` - Curiosidade | Interesting fact",
+                        "`!pergunta`, `!question` - Pergunta aleatória | Random question",
+                        "`!escolher <opções>`, `!choose <options>` - Escolher opção | Choose option",
+                        "`!love @user1 @user2` - Calculadora do amor | Love calculator",
+                        "`!motivar [@usuário]`, `!motivate [@user]` - Frase motivacional | Motivational phrase",
+                        "`!clima`, `!mood` - Clima do servidor | Server mood",
+                        "`!estatisticas`, `!stats` - Estatísticas do sistema | System statistics"
                     ]
                 }
             },
